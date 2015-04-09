@@ -1,4 +1,4 @@
-#!/usr/bin/env/python
+#!/usr/bin/env python
 
 """Module for estimation of factorial (Homework #1)
 
