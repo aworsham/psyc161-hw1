@@ -13,12 +13,13 @@ def factorial_recursive(n):
     if n <= 1:
         return 1
     else:
-        result= n*factorial_recursive(n-1)
+        result = n * factorial_recursive(n - 1)
         return result
 
 def test_factorial():
-    assert_equal(factorial_recursive(1), 1),"Incorrect"
-    assert_equal(factorial_recursive(3),6),"Incorrect"
+    assert_equal(factorial_recursive(1), 1, "Incorrect")
+    assert_equal(factorial_recursive(3), 6, "Incorrect")
+    assert_equal(factorial_recursive(3), 9, "You passed the test!")
 
 if __name__ == '__main__':
     # This is a way to determine either file was "executed", so if it was
