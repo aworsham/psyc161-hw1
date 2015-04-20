@@ -21,7 +21,8 @@ def factorial_recursive(n):
 def test_factorial():
     assert_equal(factorial_recursive(1), 1, "Incorrect")
     assert_equal(factorial_recursive(3), 6, "Incorrect")
-    assert_equal(factorial_recursive(3), 9, "You passed the test!")
+    assert_equal(factorial_recursive(0), 1, "Incorrect")
+    assert_equal(factorial_recursive(-1), 1, "Incorrect")
 
 if __name__ == '__main__':
     # This is a way to determine either file was "executed", so if it was
